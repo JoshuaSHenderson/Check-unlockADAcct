@@ -6,8 +6,8 @@
 $Account= [SAMACCOUT NAME TO UNLOCK]
 
 #do continously
-While($run -eq 1){
 $run = '1'
+While($run -eq 1){
 
 #Get ad account
 $checkADaccount = get-aduser $Account -properties *
